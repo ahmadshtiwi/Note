@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowContent">
+
+    <include
+        layout="@layout/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/show_tiltle_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pt_mono"
+        android:padding="10dp"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#171717" />
+
+    <EditText
+        android:id="@+id/show_note_id"
+        android:layout_width="match_parent"
+        android:layout_height="468dp"
+        android:ems="10"
+        android:fontFamily="@font/pt_mono"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:text="Note"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_update_id"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_btn"
+        android:text="@string/update_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/text_master"
+        android:textSize="24sp" />
+</LinearLayout>
