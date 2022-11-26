@@ -2,7 +2,7 @@
 
 ###   using Kotlin and firebase 
 
-##### Add Note &nbsp; &ensp; &emsp; Show Notes
+##### Add Note &emsp; &emsp; &emsp; Show Notes
 <img src="https://user-images.githubusercontent.com/90454407/204098611-40c0e0e7-5151-4879-85ca-0c1db4208d42.jpg" width="200" height="400"/>           <img src="https://user-images.githubusercontent.com/90454407/204098688-5537c9f8-6089-400c-95af-2cb445434c67.jpg"  width="200" height="400"/>
 
 
